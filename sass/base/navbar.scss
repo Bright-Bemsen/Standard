@@ -1,0 +1,42 @@
+.the_logo{
+    width: 5rem;
+    margin-top: 0%;
+    margin-left: 15rem;
+}
+
+.logo_container{
+    display: flex;
+    width: 250vh;
+}
+
+.navbar_search_bnt{
+    margin-left: 52rem;
+    padding: 0.6rem;
+    margin-top: 0   ;
+    background-color: azure;
+    border: none;
+}
+
+.navbar_search_bnt:focus{
+    outline: none;
+    // border: 2px solid orangered;
+    }
+
+.navbar_container_list{
+    margin-left: 15rem;
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+}
+
+.navbar_items{
+    margin-left: 5rem;
+    border: none;
+    color: #000;
+}
+
+.navbar_items:hover{
+    border-right: 1.5px solid var(--secondary-color-deep);
+    border-left: 1.5px solid var(--secondary-color-deep);
+    color: var(--secondary-color-deep);
+}

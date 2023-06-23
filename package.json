@@ -1,0 +1,19 @@
+{
+  "name": "standard",
+  "version": "1.0.0",
+  "description": "sass class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "bright": "node-sass sass/main.scss style.css -w"
+  },
+  "keywords": [
+    "uses",
+    "of",
+    "sass",
+    "sass",
+    "guide"
+  ],
+  "author": "Bro Bright",
+  "license": "ISC"
+}
